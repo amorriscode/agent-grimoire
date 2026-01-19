@@ -24,10 +24,10 @@ Drop a skill folder into your Claude Code skills directory:
 git clone https://github.com/anthropics/agent-grimoire.git
 
 # Copy a skill to your local skills folder
-cp -r agent-grimoire/skills/react-patterns ~/.claude/skills/
+cp -r agent-grimoire/skills/react-development ~/.claude/skills/
 
 # Or symlink for easy updates
-ln -s $(pwd)/agent-grimoire/skills/react-patterns ~/.claude/skills/react-patterns
+ln -s $(pwd)/agent-grimoire/skills/react-development ~/.claude/skills/react-development
 ```
 
 ### Claude.ai
@@ -37,9 +37,10 @@ Zip a skill folder and upload via Settings > Features.
 ## Available skills
 
 <!-- SKILL_TABLE_START -->
-| Skill                             | Description                                                            |
-| --------------------------------- | ---------------------------------------------------------------------- |
-| [code-review](skills/code-review) | Perform thorough code reviews on pull requests, diffs, or code changes |
+| Skill                                           | Description                                                            |
+| ----------------------------------------------- | ---------------------------------------------------------------------- |
+| [code-review](skills/code-review)               | Perform thorough code reviews on pull requests, diffs, or code changes |
+| [react-development](skills/react-development) | React patterns, anti-patterns, and performance optimization        |
 <!-- SKILL_TABLE_END -->
 
 ## Skill Structure
