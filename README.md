@@ -40,7 +40,8 @@ Zip a skill folder and upload via Settings > Features.
 | Skill                                           | Description                                                            |
 | ----------------------------------------------- | ---------------------------------------------------------------------- |
 | [code-review](skills/code-review)               | Perform thorough code reviews on pull requests, diffs, or code changes |
-| [react-development](skills/react-development) | React patterns, anti-patterns, and performance optimization        |
+| [react-development](skills/react-development) | React patterns, anti-patterns, and performance optimization            |
+| [solid-development](skills/solid-development) | SolidJS patterns, reactivity model, and best practices                 |
 <!-- SKILL_TABLE_END -->
 
 ## Skill Structure
